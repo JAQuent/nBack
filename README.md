@@ -87,7 +87,7 @@ library(plyr)
 rates <- ddply(data, c('level'), summarise, errorRate = mean(errorRate))
 ```
 
-This then can be displayed.
+Then, we can display the error rate as the function of b-nack level.
 
 ``` r
 library(ggplot2)
