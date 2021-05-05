@@ -1,7 +1,7 @@
 % % % % % % % % % % % % % % % % % % % % % % % % % 
 % n-back task after Jaeggi et al. 2010
 % Author: Alexander Quent (alexander.quent@rub.de)
-% Version: 1.7 23 Feburary 2017
+% Version: 1.8 05 May 2021
 % % % % % % % % % % % % % % % % % % % % % % % % % 
 
 try
@@ -250,12 +250,17 @@ try
         % Stimulus presentation
         Screen('DrawTexture', myScreen, stimuli{trialList(1,trial)});
         [VBLTimestamp StimulusOnsetTime1] = Screen('Flip', myScreen);
+        flippedScreen = false;
         % Response recording
         [keyIsDown, responseTime1, keyCode] = KbCheck; % saves whether a key has been pressed, seconds and the key which has been pressed.
         while keyCode(right_control) == 0 
             [keyIsDown, responseTime1, keyCode] = KbCheck;
             if responseTime1 - StimulusOnsetTime1 >= stimDuration
-                [VBLTimestamp StimulusEndTime1]  = Screen('Flip', myScreen);
+                % Only flip if it hasn't been flipped yet
+                if ~ flippedScreen
+                    [VBLTimestamp StimulusEndTime1]  = Screen('Flip', myScreen);
+                    flippedScreen = true; 
+                end
                 if responseTime1 - StimulusOnsetTime1 >= stimDuration + ISI
                     break
                 end
