@@ -100,6 +100,12 @@ Bug fixes
 ====
 In Versions < 1.8, there was a bug so that the ISI was larger than it should when no response is given. 
 
+Articles that use this task
+===========================
+Lei, H., Mochizuki, Y., Chen, C. et al. Sex difference in the weighting of expected uncertainty under chronic stress. Sci Rep 11, 8700 (2021). https://doi.org/10.1038/s41598-021-88155-1
+
+Nakagawa T, Koan I, Chen C, Matsubara T, Hagiwara K, Lei H, Hirotsu M, Yamagata H, Nakagawa S. Regular Moderate- to Vigorous-Intensity Physical Activity Rather Than Walking Is Associated with Enhanced Cognitive Functions and Mental Health in Young Adults. Int J Environ Res Public Health. 2020 Jan 18;17(2):614. https://doi.org/110.3390/ijerph17020614
+
 References
 ==========
 
