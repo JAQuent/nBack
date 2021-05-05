@@ -14,11 +14,11 @@ Jörn Alexander Quent
 General information
 ===================
 
-**Version:** 1.7
+**Version:** 1.8
 
 **License:** GPL-2
 
-**URL:** <https://github.com/JAQuent/mentalRotation>
+**URL:** <https://github.com/JAQuent/nBack>
 
 **Contact:** alex.quent (at) mrc-cbu.cam.ac.uk
 
