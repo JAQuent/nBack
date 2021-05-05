@@ -30,7 +30,7 @@ Please recognise this work by citing it.
 Description of the task
 =======================
 
-I generally followed the approach described by Jaeggi and colleagues (2010; see section 2.2.1.1). Non-verbal stimuli - eight 8-points shapes (number 14, 15, 17, 18, 20, 22, 23, and 27) and two 12-points shapes (number 20 and 24) taken from Vanderplas and Garvin (1959) - are presented to subjects in sequence who are prompted to press the right control key if a stimulus is identical to the stimulus presented n-times back. No key press is required if the stimulus is a non-target. The black stimuli are presented on a white screen for a duration of 500 msec with an interstimulus interval of 2500 msec. Therefore the subjects maximally have 3000 msec to give their response. The test levels increases from 2-back to 4-back; each level comprises three blocks, which amounts to nine blocks in total. Each block includs six targets and 14 + n non-targets. I ensure that the same stimulus is not repeated more than three times in a row. Reaction times, hits, false alarms, misses, correct rejections are recorded.
+I generally followed the approach described by Jaeggi and colleagues (2010; see section 2.2.1.1). Non-verbal stimuli - eight 8-points shapes (number 14, 15, 17, 18, 20, 22, 23, and 27) and two 12-points shapes (number 20 and 24) taken from Vanderplas and Garvin (1959) - are presented to subjects in sequence who are prompted to press the right control key if a stimulus is identical to the stimulus presented n-times back. No key press is required if the stimulus is a non-target. The black stimuli are presented on a white screen for a duration of 500 msec with an interstimulus interval (ISI) of 2500 msec. Therefore the subjects maximally have 3000 msec to give their response. The test levels increases from 2-back to 4-back; each level comprises three blocks, which amounts to nine blocks in total. Each block includes six targets and 14 + n non-targets. I ensure that the same stimulus is not repeated more than three times in a row. Reaction times, hits, false alarms, misses, correct rejections are recorded.
 
 I am sorry that the instructions of the task are in German.
 
@@ -95,6 +95,10 @@ ggplot(rates, aes(x = level, y = errorRate)) +geom_line() + labs(x = 'n-back lev
 ```
 
 ![](README_files/figure-markdown_github/unnamed-chunk-4-1.png)
+
+Bug fixes
+====
+In Versions < 1.8, there was a bug so that the ISI was larger than it should when no response is given. 
 
 References
 ==========
