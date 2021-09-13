@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/110142363.svg)](https://zenodo.org/badge/latestdoi/110142363)
+
 n-back task
 ================
 Jörn Alexander Quent
