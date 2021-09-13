@@ -1,0 +1,11 @@
+ff-version: 1.8
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Quent"
+  given-names: "Jörn Alexander"
+  orcid: "https://orcid.org/0000-0002-1800-5219"
+title: "N-back task for MATLAB"
+version: 1.8
+doi: 10.5281/zenodo.5502474 
+date-released: 2021-09-13
+url: "https://github.com/JAQuent/nBack"
