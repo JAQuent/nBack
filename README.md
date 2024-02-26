@@ -100,7 +100,7 @@ ggplot(rates, aes(x = level, y = errorRate)) +geom_line() + labs(x = 'n-back lev
 
 Bug fixes
 ====
-In Versions < 1.8, there was a bug so that the ISI was larger than it should when no response is given. 
+In Versions < 1.8, there was a bug so that the ISI was larger than it was supposed to be when no response is given. 
 
 Articles that use this task
 ===========================
