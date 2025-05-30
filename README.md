@@ -104,6 +104,8 @@ In Versions < 1.8, there was a bug so that the ISI was larger than it was suppos
 
 Articles that use this task
 ===========================
+Seiffer, B., Wolf, S. “mentalFIT”: a pilot, randomized controlled trial investigating cognitively engaging exercise for executive functions. Ger J Exerc Sport Res (2025). https://doi.org/10.1007/s12662-025-01032-1
+
 Samuel D McDougle, Ian C Ballard, Beth Baribault, Sonia J Bishop, Anne G E Collins, Executive Function Assigns Value to Novel Goal-Congruent Outcomes, Cerebral Cortex, 2021;, bhab205, https://doi.org/10.1093/cercor/bhab205
 
 Lei, H., Mochizuki, Y., Chen, C. et al. Sex difference in the weighting of expected uncertainty under chronic stress. Sci Rep 11, 8700 (2021). https://doi.org/10.1038/s41598-021-88155-1
